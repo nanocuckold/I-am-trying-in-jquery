@@ -89,14 +89,12 @@ body {
 }
 
 
-@media screen and (max-width: 324px) {
-  .buttons{
-        justify-content: space-between;
-  }
-}
 
 @media screen and (max-width: 320px) {
     #quote-box{
       padding: 10px 20px;
     }
+    .buttons{
+      justify-content: space-between;
+}
   }
