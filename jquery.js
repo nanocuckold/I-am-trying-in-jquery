@@ -53,13 +53,7 @@ function getQuote() {
       encodeURIComponent('"' + currentQuote + '" ' + currentAuthor)
   );
 
-  $('#vk-quote').attr(
-    'href',
-    'https://vk.com/share.php?url=' +
-    encodeURIComponent('"' + currentQuote + '" ' + currentAuthor)
-  );
-
-  $('.quote-text').animate({ opacity: 0 }, 500, function () {
+   $('.quote-text').animate({ opacity: 0 }, 500, function () {
     $(this).animate({ opacity: 1 }, 500);
     $('#text').text(randomQuote.quote);
   });
